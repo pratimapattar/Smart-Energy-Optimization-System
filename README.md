@@ -47,18 +47,14 @@ It also calculates energy consumption for each simulation cycle, maintains cumul
 ## Project Structure
 ```text
 Smart-Energy-Optimization-System/
-│
-├── src/
-│   ├── main.py
-│   ├── sensor.py
-│   ├── decision_engine.py
-│   ├── calculation.py
-│   ├── logger.py
-│   └── config.py
-│
-├── Documentation.txt
-├── README.md
-└── .gitignore
+    ├── main.py
+    ├── sensor.py
+    ├── decision_engine.py
+    ├── calculation.py
+    ├── logger.py
+    └── config.py
+    ├── README.md
+    └── .gitignore
 ```
 
 ## Working Principle
@@ -107,7 +103,7 @@ cd Smart-Energy-Optimization-System
 ```
 ### 3. Run the Application
 ```bash
-python3 src/main.py
+python3 main.py
 ```
 The simulation starts and continuously displays the environmental readings, AC operating state, decision reason, and energy consumption.
 Press `Ctrl + C` to stop the simulation.
